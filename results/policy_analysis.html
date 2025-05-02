@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Policy Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .severity-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 10px 0;
+        }
+        .severity-table th, .severity-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .severity-table th {
+            background-color: #f5f5f5;
+        }
+        .metric {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .list-section {
+            margin: 10px 0;
+        }
+        .list-section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .trend {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Policy Analysis Report</h1>
+    
+    <div class="section">
+        <h2>Linguistic Analysis</h2>
+        <div class="metric">Clarity Score: 7/10</div>
+        <div class="metric">Ambiguity Index: 25%</div>
+        <div class="metric">Conflict Potential: 30%</div>
+        <div class="list-section">
+            <h3>Ambiguous Phrases:</h3>
+            <ul>
+                <li>appropriate risk mitigation strategies</li><li>as quickly as the environment allows</li><li>appropriate measures to secure it physically</li>
+            </ul>
+            <h3>Suggested Rewrites:</h3>
+            <ul>
+                <li>Replace 'appropriate risk mitigation strategies' with specific required strategies</li><li>Replace 'as quickly as the environment allows' with specific timeframes</li><li>Define specific physical security measures instead of 'appropriate measures'</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Compliance Analysis</h2>
+        <div class="metric">GDPR Match: 65%</div>
+        <h3>Risk Severity Distribution:</h3>
+        
+    <table class="severity-table">
+        <thead>
+            <tr><th>Severity</th><th>Count</th></tr>
+        </thead>
+        <tbody><tr><td>low</td><td>1</td></tr><tr><td>med</td><td>2</td></tr><tr><td>high</td><td>2</td></tr></tbody>
+    </table>
+    
+        <div class="list-section">
+            <h3>Non-Compliant Sections:</h3>
+            <ul>
+                <li><strong>Regular testing and evaluation of security measures</strong><br>Issue: Policy lacks explicit requirements for regular assessment and evaluation of technical and organizational security measures<br>Severity: high</li><li><strong>Ability to ensure ongoing confidentiality, integrity, availability and resilience</strong><br>Issue: Policy does not explicitly address system resilience and availability requirements<br>Severity: med</li><li><strong>Process for regularly testing, assessing and evaluating effectiveness of security measures</strong><br>Issue: No formal process defined for regular testing of security controls effectiveness<br>Severity: high</li><li><strong>Measures to ensure ability to restore availability and access to data</strong><br>Issue: Backup requirements not comprehensive enough, missing RTO/RPO targets<br>Severity: med</li><li><strong>Pseudonymization and encryption of personal data</strong><br>Issue: Encryption requirements present but pseudonymization not addressed<br>Severity: low</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Policy Integration</h2>
+        <div class="metric">Overlap: 85%</div>
+        <div class="metric">Contradiction Index: 10%</div>
+        <div class="list-section">
+            <h3>Integration Suggestions:</h3>
+            <ul>
+                <li>Consolidate data classification definitions across policies into a single reference</li><li>Standardize security control requirements across different device types</li><li>Create unified authentication and access management framework</li><li>Develop common incident response procedures</li><li>Establish consistent data handling procedures across paper and electronic formats</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Administrative Burden</h2>
+        <div class="metric">Complexity Score: 8/10</div>
+        <div class="metric">Annual Resource Hours: 520</div>
+        <div class="list-section">
+            <h3>Efficiency Gain:</h3>
+            <p>Significant reduction in data breaches and security incidents through comprehensive multi-layered security controls and clear accountability structure</p>
+            <h3>Streamlining Opportunities:</h3>
+            <ul>
+                <li>Implement automated compliance monitoring tools to reduce manual review burden</li><li>Centralize security exception management through digital workflow</li><li>Deploy automated vulnerability scanning and patch management</li><li>Standardize security configurations through templates and baselines</li><li>Consolidate logging and monitoring into centralized SIEM platform</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Historical Analysis</h2>
+        <div class="metric">Compliance Trend: <span class="trend">↑</span></div>
+        <div class="list-section">
+            <h3>Implementation Barriers:</h3>
+            <ul>
+                <li>Complex multi-campus coordination requirements</li><li>Need for regular security updates across diverse systems</li><li>Resource-intensive monitoring and documentation needs</li><li>Technical challenges with legacy systems integration</li><li>Training and awareness requirements for all data custodians</li>
+            </ul>
+            <h3>Optimization Recommendations:</h3>
+            <ul>
+                <li>Implement automated compliance monitoring tools</li><li>Establish centralized security configuration management</li><li>Develop unified data classification framework</li><li>Deploy AI-powered threat detection systems</li><li>Create standardized security baseline templates</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
