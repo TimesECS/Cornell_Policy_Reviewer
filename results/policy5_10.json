@@ -1,0 +1,102 @@
+{
+  "linguistic": {
+    "clarity_score": 7,
+    "ambiguity_index": 25,
+    "conflict_potential": 30,
+    "ambiguous_phrases": [
+      "appropriate risk mitigation strategies",
+      "sufficient protection",
+      "appropriate measures",
+      "where technically feasible"
+    ],
+    "suggested_rewrite": [
+      "Define specific risk mitigation requirements and metrics",
+      "Quantify protection requirements with measurable standards",
+      "List specific required security measures",
+      "Specify technical conditions where requirements apply/don't apply"
+    ],
+    "readability_grade": "College Graduate"
+  },
+  "compliance": {
+    "match_percent": 65,
+    "non_compliant_sections": [
+      {
+        "requirement": "Regular testing and evaluation of security measures",
+        "issue": "Policy lacks explicit requirements for regular assessment and evaluation of technical and organizational security measures",
+        "severity": "high"
+      },
+      {
+        "requirement": "Ability to restore data availability after incidents",
+        "issue": "No clear procedures for ensuring timely restoration of data access after physical/technical incidents",
+        "severity": "high"
+      },
+      {
+        "requirement": "Process for regularly testing security",
+        "issue": "While vulnerability scanning is required, lacks comprehensive security testing requirements",
+        "severity": "med"
+      },
+      {
+        "requirement": "Pseudonymization and encryption",
+        "issue": "Encryption requirements present but pseudonymization not explicitly addressed",
+        "severity": "low"
+      }
+    ],
+    "risk_severity_map": {
+      "low": 1,
+      "med": 1,
+      "high": 2
+    },
+    "recommended_modifications": [
+      "Add explicit requirements for regular testing and evaluation of all security measures",
+      "Include detailed procedures for data restoration and business continuity after incidents",
+      "Implement comprehensive security testing requirements beyond vulnerability scanning",
+      "Add requirements for data pseudonymization where appropriate",
+      "Strengthen requirements around incident response and recovery procedures"
+    ]
+  },
+  "comparison": {
+    "overlap_percent": 85,
+    "contradiction_index": 10,
+    "redundant_sections": [
+      "Authentication and authorization requirements - overlaps with Policy 5.8",
+      "Data retention requirements - overlaps with Policy 4.7",
+      "Data breach notification procedures - overlaps with Policy 5.4.2"
+    ],
+    "integration_suggestions": [
+      "Consolidate authentication requirements with Policy 5.8 and reference rather than duplicate",
+      "Create unified data classification framework across all related policies",
+      "Merge data retention requirements into Policy 4.7 and reference from this policy",
+      "Standardize security incident reporting procedures across policies 5.4.2 and 5.10",
+      "Develop common baseline security controls that apply across all data classifications"
+    ]
+  },
+  "burden": {
+    "complexity_score": 8,
+    "resource_hours": 520,
+    "efficiency_gain": "Significant reduction in data security incidents and compliance violations through standardized controls and clear responsibilities",
+    "streamlining_opportunities": [
+      "Implement automated compliance monitoring and reporting tools",
+      "Centralize security exception management process",
+      "Create self-service portal for security requirements by data classification",
+      "Standardize vulnerability scanning and patch management across units",
+      "Automate account access reviews and privilege management"
+    ]
+  },
+  "history": {
+    "compliance_trend": "↑",
+    "implementation_barriers": [
+      "Complex multi-campus coordination requirements",
+      "Extensive technical requirements across different device types",
+      "Need for regular updates to security controls",
+      "Resource-intensive monitoring and logging requirements",
+      "Strict data classification compliance needs"
+    ],
+    "predictive_optimization": [
+      "Implement automated compliance monitoring tools",
+      "Enhance centralized security control management",
+      "Develop standardized security baselines across campuses",
+      "Strengthen data classification automation",
+      "Improve security exception tracking and renewal processes"
+    ]
+  }
+}
